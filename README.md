@@ -1,4 +1,4 @@
-# Multistep-form
+# Multi-step Form
 
 This is part of a challenge in FrontendMentor.io.
 
