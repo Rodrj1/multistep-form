@@ -1,0 +1,1 @@
+export {usePersonalInfo} from "./usePersonalInfo";

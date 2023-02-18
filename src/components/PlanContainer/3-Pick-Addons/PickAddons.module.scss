@@ -1,0 +1,67 @@
+.container {
+  text-align: left;
+
+  .addonSelection {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 1.5rem;
+
+    article {
+      width: 100%;
+      border: 1px solid var(--grey-light);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      transition: 0.2s;
+      cursor: pointer;
+
+      &:hover {
+        border: 1px solid var(--blue-purplish) !important;
+      }
+
+      div:first-child {
+        width: 10%;
+      }
+
+      div:nth-child(2) {
+        width: 70%;
+      }
+
+      div:last-child {
+        width: 20%;
+        color: var(--blue-purplish);
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media (min-width: 280px) and (max-width: 767px) {
+  .container {
+
+    .addonSelection {
+      gap: 20px;
+
+      article {
+        height: 80px;
+
+        div:first-child {
+          width: 1fr;
+        }
+  
+        div:nth-child(2) {
+          width: 3fr;
+        }
+  
+        div:last-child {
+          width: 1fr;
+          color: var(--blue-purplish);
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

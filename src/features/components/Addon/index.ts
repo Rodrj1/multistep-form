@@ -1,0 +1,1 @@
+export { useAddonUpdater } from "./useAddonUpdater";
