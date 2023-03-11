@@ -2,7 +2,7 @@
 
 This is part of a challenge in FrontendMentor.io.
 
-Url: https://multistepformchallenge.netlify.app/
+Website: https://multistepformchallenge.netlify.app/
 
 ## Personal Info
 
